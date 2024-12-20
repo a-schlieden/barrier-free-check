@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barriere Frei Check</title>
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/03-feedback.css" />
+</head>
+
+<body>
+  <p><a href="index.html">Go back</a></p>
+
+  <div class="container">
+    <h1>Barrierefreiheitstester</h1>
+    <p>Geben Sie eine URL ein, um die Barrierefreiheit zu testen:</p>
+    <form id="accessibility-form">
+      <input type="url" id="url-input" placeholder="https://example.com" required>
+      <button type="submit">Testen</button>
+    </form>
+    <div id="results" hidden>
+      <h2>Ergebnisse</h2>
+      <div id="output"></div>
+    </div>
+  </div>
+
+  <script src="js/barrier-free.js" type="module"></script>
+  <script src="js/axe-min.js"></script>
+</body>
+
+</html>

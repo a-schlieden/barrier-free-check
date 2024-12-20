@@ -1,4 +1,4 @@
-var throttle = require('lodash.throttle');
+/* var throttle = require('lodash.throttle');
 
 const formEl = document.querySelector('.feedback-form');
 const formEmailEl = formEl.querySelector('input[name="email"]');
@@ -36,3 +36,4 @@ function onFormSubmit(event) {
   console.log('feedbackForm: ', feedbackForm);
   localStorage.removeItem(STORAGE_KEY);
 }
+ */

@@ -1,4 +1,4 @@
-// Add imports above this line
+/* // Add imports above this line
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import { galleryItems } from './gallery-items';
@@ -27,3 +27,4 @@ let lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
+ */
